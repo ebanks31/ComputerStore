@@ -1,0 +1,7 @@
+C:\Users\Eric\Documents\Visual Studio 2013\Projects\ComputerStoreTest\ComputerStoreTest\bin\Debug\ComputerStoreTest.dll
+C:\Users\Eric\Documents\Visual Studio 2013\Projects\ComputerStoreTest\ComputerStoreTest\bin\Debug\ComputerStoreTest.pdb
+C:\Users\Eric\Documents\Visual Studio 2013\Projects\ComputerStoreTest\ComputerStoreTest\bin\Debug\ComputerStore.exe
+C:\Users\Eric\Documents\Visual Studio 2013\Projects\ComputerStoreTest\ComputerStoreTest\obj\Debug\ComputerStoreTest.csprojResolveAssemblyReference.cache
+C:\Users\Eric\Documents\Visual Studio 2013\Projects\ComputerStoreTest\ComputerStoreTest\obj\Debug\ComputerStoreTest.dll
+C:\Users\Eric\Documents\Visual Studio 2013\Projects\ComputerStoreTest\ComputerStoreTest\obj\Debug\ComputerStoreTest.pdb
+C:\Users\Eric\Documents\Visual Studio 2013\Projects\ComputerStoreTest\ComputerStoreTest\bin\Debug\ComputerStore.pdb
