@@ -207,7 +207,9 @@ namespace ComputerStore
                 string phonenumber = (string)datatable.Rows[i][6];
                 DateTime lastlogindate = (DateTime)datatable.Rows[i][7];
                 DateTime lastPurchaseDate = (DateTime)datatable.Rows[i][8];
+
                 User currentuser = this.GetCurrentUser(username, userlist);
+
                 if (currentuser != null)
                 {
                     Customer customer = new Customer(customerid, currentuser, firstname, lastname, address, email, phonenumber, lastlogindate);
@@ -320,9 +322,18 @@ Properties.Settings.Default.DataConnectionString))
             Customer customer = new Customer();
             List<Customer> customerlist = customer.getAllCustomerList(userlist);
 
-            int lastcustomerid = customerlist[customerlist.Count - 1].customerid;
-            int final = lastcustomerid + 1;
-            return final;
+            if (customerlist.Count!=0)
+            {
+                int lastcustomerid = customerlist[customerlist.Count - 1].customerid;
+                int final = lastcustomerid + 1;
+                return final;
+            }
+            else
+            {
+                int final = 1;
+                return final;
+            }
+
 
         }
 

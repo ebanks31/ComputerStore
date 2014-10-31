@@ -48,17 +48,18 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(141, 70);
+            this.listBox1.Location = new System.Drawing.Point(140, 140);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(351, 290);
+            this.listBox1.Size = new System.Drawing.Size(233, 147);
             this.listBox1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(335, 381);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(310, 384);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
+            this.label1.Size = new System.Drawing.Size(63, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Orders";
             // 
@@ -75,7 +76,7 @@
             // sortcombobox
             // 
             this.sortcombobox.FormattingEnabled = true;
-            this.sortcombobox.Location = new System.Drawing.Point(241, 43);
+            this.sortcombobox.Location = new System.Drawing.Point(275, 38);
             this.sortcombobox.Name = "sortcombobox";
             this.sortcombobox.Size = new System.Drawing.Size(121, 21);
             this.sortcombobox.TabIndex = 3;
@@ -84,7 +85,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(160, 46);
+            this.label2.Location = new System.Drawing.Point(192, 38);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(26, 13);
             this.label2.TabIndex = 4;
@@ -146,9 +147,9 @@
             // orderdataGridView1
             // 
             this.orderdataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.orderdataGridView1.Location = new System.Drawing.Point(141, 70);
+            this.orderdataGridView1.Location = new System.Drawing.Point(91, 84);
             this.orderdataGridView1.Name = "orderdataGridView1";
-            this.orderdataGridView1.Size = new System.Drawing.Size(351, 308);
+            this.orderdataGridView1.Size = new System.Drawing.Size(478, 294);
             this.orderdataGridView1.TabIndex = 7;
             this.orderdataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.orderdataGridView1_CellContentClick);
             // 

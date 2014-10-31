@@ -71,6 +71,7 @@ namespace ComputerStore
                 ArrayList list = customer.AddCustomerToArraylist(customerid.ToString(), user.Username, firstname, lastname, email, phonenumber, address, lastlogindate.ToString(), lastpurchasedate.ToString());
                 customer.AddUser(user);
                 customer.AddCustomer(customer);
+                userlogin.SerializeLogin(user);
                 customer.InsertDatabase(list);
                 Customer.currentcustomer = customer;
 

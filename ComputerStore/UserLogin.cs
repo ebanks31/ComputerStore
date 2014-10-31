@@ -239,13 +239,12 @@ namespace ComputerStore
         /// <returns>User object that contain user's username and password</returns>
         public List<User> DeserializeLogin()
         {
-
-
-            FileStream filestream = new FileStream("N:/MyFile.bin", FileMode.Open);
+            FileStream filestream = null;
             List<User> list = null;
-            BinaryFormatter formatter = new BinaryFormatter();
             try
-            {
+            { 
+            filestream = new FileStream("N:/MyFile.bin", FileMode.Open);
+            BinaryFormatter formatter = new BinaryFormatter();
                object sample =formatter.Deserialize(filestream);
 
               list = sample as List<User>;
@@ -258,9 +257,16 @@ namespace ComputerStore
             {
                 Console.WriteLine("Failed to serialize. Reason: " + e.Message);
             }
+            catch(IOException ex)
+            {
+                return null;
+            }
             finally
             {
-                filestream.Close();
+                if (filestream != null)
+                {
+                    filestream.Close();
+                }
             }
             userlist = list;
             return list;
