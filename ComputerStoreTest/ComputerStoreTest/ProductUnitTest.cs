@@ -13,6 +13,9 @@ using System.Data;
 
 namespace ComputerStoreTest
 {
+    /// <summary>
+    /// This class makes tests various functionalities for the Product class.
+    /// </summary>
     [TestClass]
     public class ProductUnitTest
     {

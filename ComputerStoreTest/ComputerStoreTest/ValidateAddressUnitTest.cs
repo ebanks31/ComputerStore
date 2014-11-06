@@ -4,6 +4,10 @@ using ComputerStore;
 
 namespace ComputerStoreTest
 {
+
+    /// <summary>
+    /// This class makes tests valid and invalid addresses for customer registration. 
+    /// </summary>
     [TestClass]
     public class ValidateAddressUnitTest
     {

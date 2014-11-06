@@ -242,6 +242,7 @@ namespace ComputerStore
         }
 
 
+
         /// <summary>
         /// Adds Customer fields to ArrayList
         /// </summary>

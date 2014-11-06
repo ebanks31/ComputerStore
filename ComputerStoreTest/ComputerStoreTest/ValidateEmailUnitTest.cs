@@ -4,6 +4,11 @@ using ComputerStore;
 
 namespace ComputerStoreTest
 {
+
+    /// <summary>
+    /// This class makes tests valid and invalid email for customer registration. 
+    /// </summary>
+    /// </summary>
     [TestClass]
     public class ValidateEmailUnitTest
     {

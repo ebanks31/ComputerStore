@@ -428,6 +428,7 @@ namespace ComputerStore
 
                        ArrayList finallist = this.getCurrentProductIDSelectedCells(productidlist, productdataGridView1);
                        return finallist;
+
         }
 
         /// <summary>

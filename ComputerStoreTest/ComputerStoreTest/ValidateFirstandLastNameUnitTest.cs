@@ -4,6 +4,10 @@ using ComputerStore;
 
 namespace ComputerStoreTest
 {
+
+    /// <summary>
+    /// This class makes tests valid and invalid First and Lastnames for customer registration. 
+    /// </summary>
     [TestClass]
     public class ValidateFirstandLastNameUnitTest
     {

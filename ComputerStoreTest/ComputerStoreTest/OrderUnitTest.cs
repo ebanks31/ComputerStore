@@ -12,6 +12,9 @@ using System.ComponentModel;
 using System.Data;
 namespace ComputerStoreTest
 {
+    /// <summary>
+    /// This class makes tests various functionalities for the Orders class.
+    /// </summary>
     [TestClass]
     public class OrderUnitTest
     {

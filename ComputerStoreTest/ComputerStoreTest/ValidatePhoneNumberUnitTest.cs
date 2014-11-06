@@ -4,6 +4,9 @@ using ComputerStore;
 
 namespace ComputerStoreTest
 {
+    /// <summary>
+    /// This class makes tests valid and invalid phonenumbers for customer registration. 
+    /// </summary>
     [TestClass]
     public class ValidatePhoneNumberUnitTest
     {

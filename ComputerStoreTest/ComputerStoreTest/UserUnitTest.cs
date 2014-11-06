@@ -8,6 +8,10 @@ using System.Text;
 
 namespace ComputerStoreTest
 {
+
+    /// <summary>
+    /// This class makes tests various functionalities for the User class.
+    /// </summary>
     [TestClass]
     public class UserUnitTest
     {

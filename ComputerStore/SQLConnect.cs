@@ -48,6 +48,7 @@ namespace ComputerStore
             myCommand.ExecuteNonQuery();
         }
 
+
         public string QueryDatabase(SqlConnection myConnection, string query)
         {
             string result="";

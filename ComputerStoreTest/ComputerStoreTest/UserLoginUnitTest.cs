@@ -7,6 +7,9 @@ using System.Drawing;
 
 namespace ComputerStoreTest
 {
+    /// <summary>
+    /// This class makes tests various functionalities for the User Login class.
+    /// </summary>
     [TestClass]
     public class UserLoginUnitTest
     {
