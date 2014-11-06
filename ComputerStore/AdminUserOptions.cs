@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Collections;
+using System.Threading;
 
 namespace ComputerStore
 {
@@ -78,15 +81,31 @@ namespace ComputerStore
         private void GetUserButton_Click(object sender, EventArgs e)
         {
             Userlistbox.Items.Clear();
-                
+            DataGridViewTextBoxColumn newCol = new DataGridViewTextBoxColumn(); // add a column to the grid
+            newCol.HeaderText = "Username";
+            newCol.Name = "Username";
+            newCol.Visible = true;
+            newCol.Width = 40;
+            this.dataGridView1.Columns.Add(newCol);
+
+            DataGridViewTextBoxColumn newCol1 = new DataGridViewTextBoxColumn(); // add a column to the grid
+            newCol1.HeaderText = "Password";
+            newCol1.Name = "Password";
+            newCol1.Visible = true;
+            newCol1.Width = 40;
+            this.dataGridView1.Columns.Add(newCol1);
+
             UserLogin userlogin = new UserLogin();
             List<User> userlist = userlogin.DeserializeLogin();
 
             int i = 0 ;
             foreach(User user in userlist)
             {
-
-                Userlistbox.Items.Add(user.Username + " " + user.Password);
+                DataGridViewRow row = (DataGridViewRow)this.dataGridView1.Rows[0].Clone();
+                row.Cells[0].Value = user.Username;
+                row.Cells[1].Value = user.Password;
+                this.dataGridView1.Rows.Add(row);
+                //Userlistbox.Items.Add(user.Username + " " + user.Password);
                 
             }
         }
