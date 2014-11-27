@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ComputerStore.About" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAIAAAAAAAQAAAAAAE=</HashCode>
+      <FileName>About.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.Account" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>HQACAAAgACAAQRABQACCAAACAIAAAFgAggAAAAAQCAU=</HashCode>
+      <FileName>Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.Admin_Login" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BUAJBECgABgAABQAABCCAAACAEgCIAgBAgAAAAKAQsE=</HashCode>
+      <FileName>Admin_Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.AdminUser" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AdminUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.AdminUserOptions" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FQAAAAAgACAAABIgAAGCAAAiAAwAIBgJEgAAAAgAkEk=</HashCode>
+      <FileName>AdminUserOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.ClientOrders" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAAAAEgACAgABQABACCQAICAAAAABAABgAAAAgAAAU=</HashCode>
+      <FileName>ClientOrders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.ClientStore" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BwRIQAGgADAAABBAIAiTAAUSGBiDAAwAAgIEAAAgAEk=</HashCode>
+      <FileName>ClientStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.ConfirmOrder" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQAAAACAAABAAAASAAAASBAAAAAAAAAAAkBAAAAA=</HashCode>
+      <FileName>ConfirmOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.Customer" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGSBAGlAABIsAQAQSAAAAGZCADgCABAYQBIAAQA=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.CustomerOptions" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BSAAEAAwACAAIBAAAACAAAICICCIAAoAAgAAAAAAAkE=</HashCode>
+      <FileName>CustomerOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.LoginUser" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAAAAQAASAAAgAiIACAACAiAAQEASgEEAAAAAgAACE=</HashCode>
+      <FileName>LoginUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.Orders" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAAIgAAAyAAAAIAEAAAgAAARAAACBABARgBABCQg=</HashCode>
+      <FileName>Orders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.Product" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAAABAQSAAQAYEgIkNJAACWQAAAgAAYIQIAJCAA=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.ProductForm" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FYAACAgpIGEgUBKAiAiCCAQWEGgAQAgAgwAAAAGSAAU=</HashCode>
+      <FileName>ProductForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.Program" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.Register" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAgAAAEAAAMAEAUEAIAABiAAAAAAAAAEQACAiBAA=</HashCode>
+      <FileName>Register.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.RegisterForm" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hYQBBAAgICAEABAAAACCAABCgAQCIQgAAgCADAQAAEk=</HashCode>
+      <FileName>RegisterForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.SQL" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAACAgAABAAACAAAACAAARABAAAIAAAAAAAAA=</HashCode>
+      <FileName>SQL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.SQLConnect" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>SQLConnect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.UpdateProduct" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACAAAAAAAACAAAACAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UpdateProductForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.User" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAKAAAQAAAAEAAAAAAQAiAAAAAgAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.UserLogin" Collapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAAgAIAAACAMgAAAAAAQAAAABACAAAAAgAAAAAAAQ=</HashCode>
+      <FileName>UserLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.Properties.Resources" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerStore.Properties.Settings" Collapsed="true">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ComputerStore.CustomerInterface" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface1.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ComputerStore.Productinterface" Collapsed="true">
+    <Position X="7" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProductInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
