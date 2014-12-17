@@ -81,31 +81,41 @@ namespace ComputerStore
         private void GetUserButton_Click(object sender, EventArgs e)
         {
             Userlistbox.Items.Clear();
-            DataGridViewTextBoxColumn newCol = new DataGridViewTextBoxColumn(); // add a column to the grid
-            newCol.HeaderText = "Username";
-            newCol.Name = "Username";
-            newCol.Visible = true;
-            newCol.Width = 40;
-            this.dataGridView1.Columns.Add(newCol);
+            DataGridViewTextBoxColumn usernamecolumn = new DataGridViewTextBoxColumn(); // add a column to the grid
+            usernamecolumn.HeaderText = "Username";
+            usernamecolumn.Name = "Username";
+            usernamecolumn.Visible = true;
+            usernamecolumn.Width = 40;
+            this.dataGridView1.Columns.Add(usernamecolumn);
 
-            DataGridViewTextBoxColumn newCol1 = new DataGridViewTextBoxColumn(); // add a column to the grid
-            newCol1.HeaderText = "Password";
-            newCol1.Name = "Password";
-            newCol1.Visible = true;
-            newCol1.Width = 40;
-            this.dataGridView1.Columns.Add(newCol1);
+            DataGridViewTextBoxColumn firstnamecolumn = new DataGridViewTextBoxColumn(); // add a column to the grid
+            firstnamecolumn.HeaderText = "First Name";
+            firstnamecolumn.Name = "First Name";
+            firstnamecolumn.Visible = true;
+            firstnamecolumn.Width = 40;
+            this.dataGridView1.Columns.Add(firstnamecolumn);
+
+            DataGridViewTextBoxColumn lastnamecolumn = new DataGridViewTextBoxColumn(); // add a column to the grid
+            lastnamecolumn.HeaderText = "Last Name";
+            lastnamecolumn.Name = "Last Name";
+            lastnamecolumn.Visible = true;
+            lastnamecolumn.Width = 40;
+            this.dataGridView1.Columns.Add(lastnamecolumn);
 
             UserLogin userlogin = new UserLogin();
             List<User> userlist = userlogin.DeserializeLogin();
 
+            Customer customer = new Customer();
+            List<Customer> customerlist = customer.getAllCustomerList(userlist);
+
             int i = 0 ;
-            foreach(User user in userlist)
+            foreach (Customer currentcustomer in customerlist)
             {
                 DataGridViewRow row = (DataGridViewRow)this.dataGridView1.Rows[0].Clone();
-                row.Cells[0].Value = user.Username;
-                row.Cells[1].Value = user.Password;
+                row.Cells[0].Value = currentcustomer.Username;
+                row.Cells[1].Value = currentcustomer.Firstname;
+                row.Cells[1].Value = currentcustomer.Lastname;
                 this.dataGridView1.Rows.Add(row);
-                //Userlistbox.Items.Add(user.Username + " " + user.Password);
                 
             }
         }
