@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+
 
 namespace ComputerStore
 {
@@ -50,6 +52,56 @@ namespace ComputerStore
             login.SerializeLogin(user);
 
         }
+
+
+        /// <summary>
+        /// 
+        /// 
+        /// 
+        /// </summary>
+        public void GetAllUsers(DataGridView dataGridView1)
+        {
+            dataGridView1.Rows.Clear();
+            DataGridViewTextBoxColumn usernamecolumn = new DataGridViewTextBoxColumn(); // add a column to the grid
+            usernamecolumn.HeaderText = "Username";
+            usernamecolumn.Name = "Username";
+            usernamecolumn.Visible = true;
+            usernamecolumn.Width = 100;
+            dataGridView1.Columns.Add(usernamecolumn);
+
+            DataGridViewTextBoxColumn firstnamecolumn = new DataGridViewTextBoxColumn(); // add a column to the grid
+            firstnamecolumn.HeaderText = "First Name";
+            firstnamecolumn.Name = "First Name";
+            firstnamecolumn.Visible = true;
+            firstnamecolumn.Width = 100;
+            dataGridView1.Columns.Add(firstnamecolumn);
+
+            DataGridViewTextBoxColumn lastnamecolumn = new DataGridViewTextBoxColumn(); // add a column to the grid
+            lastnamecolumn.HeaderText = "Last Name";
+            lastnamecolumn.Name = "Last Name";
+            lastnamecolumn.Visible = true;
+            lastnamecolumn.Width = 100;
+            dataGridView1.Columns.Add(lastnamecolumn);
+
+            UserLogin userlogin = new UserLogin();
+            List<User> userlist = userlogin.DeserializeLogin();
+
+            Customer customer = new Customer();
+            List<Customer> customerlist = customer.getAllCustomerList(userlist);
+
+            int i = 0;
+            foreach (Customer currentcustomer in customerlist)
+            {
+                DataGridViewRow row = (DataGridViewRow)dataGridView1.Rows[0].Clone();
+                row.Cells[0].Value = currentcustomer.Users.Username;
+                row.Cells[1].Value = currentcustomer.Firstname;
+                row.Cells[2].Value = currentcustomer.Lastname;
+                dataGridView1.Rows.Add(row);
+
+            }
+
+        }
+
 
     }
 }
