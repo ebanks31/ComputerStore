@@ -189,6 +189,7 @@ namespace ComputerStore
                 }
                 else
                 {
+                    //Add user if user is found in Userlist. Serialize User.
                     userlist.Add(user);
                     stream = this.SerializeHelper(userlist, stream);
 
@@ -266,7 +267,7 @@ namespace ComputerStore
             {
                 if (filestream != null)
                 {
-                    filestream.Close();
+                    filestream.Close(); //Close String
                 }
             }
             userlist = list;
